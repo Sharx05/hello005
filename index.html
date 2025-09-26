@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe Noodles - A Creative Fire</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <canvas id="background-canvas"></canvas>
+
+    <header>
+        <nav>
+            <div class="logo">Adobe® Noodles</div>
+            <ul class="nav-links">
+                <li><a href="#products">Flavors</a></li>
+                <li><a href="#our-masterpiece">Recipes</a></li>
+                <li><a href="#pricing">Subscriptions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>The First Noodle for Creatives.</h1>
+                <p>A fusion of fierce flavor and creative energy, designed to fuel your next big idea.</p>
+                <a href="#pricing" class="cta-button">Ignite Your Tastebuds</a>
+            </div>
+            <div class="hero-image">
+                 <img src="noodle.png" alt="A bag of the original Adobe Noodles" onerror="this.onerror=null;this.src='https://placehold.co/400x400/1a1a1a/ffffff?text=Adobe+Noodles';">
+            </div>
+        </section>
+
+        <section id="products" class="content-section">
+            <h2>Our Flavors</h2>
+            <div class="products-grid">
+                <div class="product-card reveal">
+                    <div class="product-image">
+                        <img src="chicken.jpg" alt="ChickoCurve Noodles" onerror="this.onerror=null;this.src='https://placehold.co/400x300/2a2a2a/f4f4f9?text=ChickoCurve';">
+                    </div>
+                    <div class="product-info">
+                        <h3>ChickoCurve Noodles</h3>
+                        <p>Experience the rich, comforting embrace of Chicocurve Noodles – where every perfectly spiraled strand delivers a burst of authentic chicken flavor.</p>
+                    </div>
+                </div>
+
+                <div class="product-card reveal">
+                    <div class="product-image">
+                        <img src="greenchilly.jpg" alt="Spicy Green Chili Noodles" onerror="this.onerror=null;this.src='https://placehold.co/400x300/2a2a2a/f4f4f9?text=Spicy+Green';">
+                    </div>
+                    <div class="product-info">
+                        <h3>Spicy Green Chili Noodles</h3>
+                        <p>Ignite your senses! Unleash a vibrant, fiery kick in every slurp, crafted for those who crave an exhilarating culinary adventure.</p>
+                    </div>
+                </div>
+
+                <div class="product-card reveal">
+                    <div class="product-image">
+                        <img src="paprika.jpg" alt="Smoky Paprika Noodles" onerror="this.onerror=null;this.src='https://placehold.co/400x300/2a2a2a/f4f4f9?text=Smoky+Paprika';">
+                    </div>
+                    <div class="product-info">
+                        <h3>Smoky Paprika Noodles</h3>
+                        <p>Unleash the flavor! Our Smoky Paprika Noodles bring the perfect balance of smoky intensity and vibrant paprika spice to your plate.</p>
+                    </div>
+                </div>
+
+                <div class="product-card reveal">
+                    <div class="product-image">
+                        <img src="lemon.jpg" alt="Tangy Lemon Zing Noodles" onerror="this.onerror=null;this.src='https://placehold.co/400x300/2a2a2a/f4f4f9?text=Lemon+Zing';">
+                    </div>
+                    <div class="product-info">
+                        <h3>Tangy Lemon Zing Noodles</h3>
+                        <p>Escape to a citrusy paradise! Each strand bursts with the bright, refreshing zest of real lemons, delivering a delightful tang.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="features" class="content-section">
+            <h2>Signature Spices</h2>
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <h3>Sichuan Dragon's Breath</h3>
+                    <p>An electrifying blend of Sichuan peppercorns and chili that sparks creativity.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <h3>Black Garlic Inferno</h3>
+                    <p>A deep, umami-rich flavor with a smoky heat for intense focus sessions.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <h3>Crimson Chili Teriyaki</h3>
+                    <p>A perfect balance of sweet, savory, and spicy to keep the ideas flowing.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai-recipe-maker" class="content-section reveal">
+            <h2>AI Recipe Weaver</h2>
+            <p>Our AI can weave a unique recipe from the ingredients you possess. Awaken the chef within.</p>
+            <button id="ai-maker-btn" class="cta-button">Consult the Oracle</button>
+        </section>
+
+        <section id="our-masterpiece" class="masterpiece-section content-section reveal">
+            <h2>Our Masterpiece: The Red Dragon Ramen</h2>
+            <div class="masterpiece-content">
+                <div class="masterpiece-image">
+                    <img src="https://placehold.co/600x400/B0181E/ffffff?text=Red+Dragon+Ramen" alt="The Red Dragon Ramen">
+                </div>
+                <div class="masterpiece-text">
+                    <p>A legendary bowl featuring our Dragon's Breath noodles in a rich, spicy broth, topped with char siu pork, a molten egg, and black fungus.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="customer-masterpiece" class="masterpiece-section content-section reveal">
+            <h2>Masterpiece of the Month</h2>
+            <div class="masterpiece-content reverse">
+                 <div class="masterpiece-image">
+                    <img src="https://placehold.co/600x400/333333/ffffff?text=Customer+Creation" alt="Customer recipe of the month">
+                </div>
+                <div class="masterpiece-text">
+                    <h3>The Black Garlic Uprising</h3>
+                    <p>A stunning creation by a true noodle visionary, blending our Black Garlic Inferno noodles with crispy tofu and bok choy.</p>
+                    <cite>- A masterpiece by Kenji T.</cite>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="content-section">
+            <h2>Choose Your Allegiance</h2>
+            <div class="pricing-switcher reveal">
+                <div class="pricing-tabs">
+                    <button class="tab-btn active" data-plan="starter">Initiate</button>
+                    <button class="tab-btn" data-plan="creative">Acolyte</button>
+                    <button class="tab-btn" data-plan="enterprise">Master</button>
+                </div>
+                <div class="pricing-content">
+                    <div class="plan-details active" id="starter">
+                        <h3>Initiate's Pack</h3>
+                        <p class="price">$14.99<span>/month</span></p>
+                        <ul>
+                            <li>✓ 4 Packs of Noodles</li>
+                            <li>✓ Standard Spice Blends</li>
+                        </ul>
+                        <a href="#" class="cta-button select-plan-btn">Select Plan</a>
+                    </div>
+                    <div class="plan-details" id="creative">
+                        <h3>Acolyte's Arsenal</h3>
+                        <p class="price">$29.99<span>/month</span></p>
+                        <ul>
+                            <li>✓ 10 Packs of Noodles</li>
+                            <li>✓ Premium Spice Blends</li>
+                            <li>✓ Early Access to New Flavors</li>
+                        </ul>
+                        <a href="#" class="cta-button select-plan-btn">Most Popular</a>
+                    </div>
+                    <div class="plan-details" id="enterprise">
+                        <h3>Master's Hoard</h3>
+                        <p class="price">$69.99<span>/month</span></p>
+                        <ul>
+                            <li>✓ 30 Packs of Noodles</li>
+                            <li>✓ All Spice Blends Unlocked</li>
+                            <li>✓ A Dedicated Flavor Master</li>
+                        </ul>
+                        <a href="#" class="cta-button select-plan-btn">Select Plan</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section">
+             <h2>Send a Scroll</h2>
+             <form class="contact-form reveal">
+                 <input type="text" name="name" placeholder="Your Name" required>
+                 <input type="email" name="email" placeholder="Your Email" required>
+                 <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                 <button type="submit" class="cta-button">Dispatch</button>
+             </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Adobe. All rights reserved. Unleash your inner dragon.</p>
+    </footer>
+
+    <div id="ai-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>The Oracle is Meditating...</h2>
+            <p>Our AI Recipe Weaver is currently communing with the ancient dragons. Check back soon for its infinite wisdom.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
